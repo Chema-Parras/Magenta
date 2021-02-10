@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="EstiloCSS.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <title>Beauty View | Login</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 form-container">
+          <div
+            class="col-lg-8 col-md-12 col-sm-9 col-xs-12 form-box text-center"
+          >
+            <!----Logo faltante-->
+            <div class="logo mt-5 mb-3">
+              <img src="imagenes/Logo.png" width="150px" />
+            </div>
+
+            <!-- Letras blancas de Iniciar sesión  -->
+            <div class="heading mb-3">
+              <h4>Iniciar sesión</h4>
+            </div>
+            <form>
+              <!-- Formulario correo  -->
+              <div class="form-input">
+                <span><i class="fa fa-envelope"></i></span>
+                <input
+                  type="correo"
+                  placeholder="Correo electrónico"
+                  required
+                />
+              </div>
+              <!-- Formulario contraseña  -->
+              <div class="form-input">
+                <span><i class="fa fa-lock"></i></span>
+                <input type="contraseña" placeholder="Contraseña" required />
+              </div>
+              <!-- Caja check -->
+              <div class="row mb-3">
+                <div class="col-6 d-flex">
+                  <div class="custom-control custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="custom-control-input"
+                      id="cb1"
+                    />
+                    <label class="custom-control-label text-white" for="cb1"
+                      >Recuerdame</label
+                    >
+                  </div>
+                </div>
+                <!-- Link  de contraseña olvidada   -->
+                <div class="col-6 text-right">
+                  <a class="forget-link">¿Olvidaste tu contraseña?</a>
+                </div>
+              </div>
+              <!-- Boton de iniciar sesión -->
+              <div class="text-left mb-3">
+                <button type="submit" class="btn">Iniciar sesión</button>
+              </div>
+              <!-- Letras blancas de Iniciar sesion con  -->
+              <div class="text-white mb-3">Iniciar sesión con:</div>
+              <div class="row mb-3">
+                <!-- Letras blancas de Iniciar sesión  -->
+                <div class="col-4">
+                  <a
+                    href="https://es-es.facebook.com"
+                    class="btn btn-block btn-social btn-facebook"
+                  >
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </div>
+                <!-- Boton Google  -->
+                <div class="col-4">
+                  <a
+                    href="https://www.google.com/intl/es/gmail/about/"
+                    class="btn btn-block btn-social btn-google"
+                  >
+                    <i class="fa fa-google"></i>
+                  </a>
+                </div>
+                <!-- Boton Twitter  -->
+                <div class="col-4">
+                  <a
+                    href="https://twitter.com/"
+                    class="btn btn-block btn-social btn-twitter"
+                  >
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </div>
+              </div>
+              <!-- Link  de registro  -->
+              <div class="text-white">
+                <a class="register-link">Registrate aquí</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Imagen  -->
+        <div class="col-lg-6 col-md-6 d-none d-md-block image-container"></div>
+      </div>
+    </div>
+  </body>
+</html>

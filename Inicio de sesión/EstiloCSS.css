@@ -1,3 +1,8 @@
+body{
+  font-family:'Montada', sans-serif;
+
+}
+
 /* contenedpr con la imagen */
 .image-container {
   background: url("imagenes/ImagenMEN.jpg") center no-repeat;

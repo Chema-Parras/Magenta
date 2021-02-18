@@ -5,7 +5,7 @@
    
 .parallax {
   /* The image used */
-  background-image: url("../imagenes/Beauty_View.png");
+  background-image: url("../imagenes/destacado-galeria-gafas-sol.jpg");
   
   /* Set a specific height */
   height: 600px;
@@ -32,4 +32,12 @@
   padding: 0.5rem 1rem;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-link-mio {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #F50087;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
